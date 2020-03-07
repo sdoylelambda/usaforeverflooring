@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["i+l+d"]); }
+
+__d("StoriesBehaviorHelpContextProvider_owner.graphql",[],(function(a,b,c,d,e,f){"use strict";a={kind:"Fragment",name:"StoriesBehaviorHelpContextProvider_owner",type:"CameraPostBucketOwnerUnion",metadata:null,argumentDefinitions:[],selections:[{kind:"ScalarField",alias:null,name:"id",args:null,storageKey:null},{kind:"InlineFragment",type:"Page",selections:[{kind:"ScalarField",alias:null,name:"viewer_profile_permissions",args:null,storageKey:null}]}]};e.exports=a}),null);
