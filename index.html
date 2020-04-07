@@ -307,7 +307,7 @@
             Email for a free quote
           </p>
 
-          <form method="post" action="#" method="post" enctype="text/plain"  data-netlify="true">
+          <form method="post" action="#" data-netlify="true">
             <div class="row">
               <div class="col-6 col-12-mobile">
                 <input type="text" name="name" placeholder="Name" />
@@ -319,7 +319,11 @@
                 <textarea name="message" placeholder="Message"></textarea>
               </div>
               <div class="col-12">
-                <input type="submit" value="Send Message" />
+                <input 
+                type="submit"    
+                name="submit"
+                id="submit" 
+                value="Send Message" />
               </div>
             </div>
           </form>
